@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Summer Bucket List</title>
+    <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Summer Bucket List</h1>
+    </header>
+    <main>
+      <section id="inputs">
+        <h3>Add an Activity</h3>
+        <label for="itemName">Activity</label>
+        <input type="text" id="itemName" />
+        <label for="itemCategory">Category</label>
+        <input type="text" id="itemCategory" />
+        <label for="itemTime">Time it will take</label>
+        <input type="text" id="itemTime" />
+        <label for="itemCompleted">Completed?</label>
+        <select id="itemCompleted">
+          <option value="No">No</option>
+          <option value="Yes">Yes</option>
+        </select>
+        <button id="add">Add activity</button>
+      </section>
+      <section id="table">
+        <h3>Your List</h3>
+        <div id="list">
+            
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Created by <a href="https://aarongarry.github.io/is120-project2-aaron-garry/" target="_blank"> Aaron Garry</a></p>
+    </footer>
+  </body>
+</html>

@@ -1,2 +1,7 @@
 # is120-project3-aaron-garry
 Supabase CRUD application
+
+This CRUD application stores and tracks activities for a summer bucket list. This could be used almost as a long term to do list that has multiple descriptive fields like time it will take, category, and if it has been completed. Some categories could be personal project ideas, outdoor activities, fitness goals, or anything else. 
+It was difficult to make all the supabase functions work and have the functions talk to each other. For example having the edit button just change the function of the save button was difficult to wrap my mind around at first but it started to make a lot more sense once I tested different things and understanding what arguments it takes(which is the entry as an object to fill the input fields). 
+I learned that this is a very unsecure way to have a database and also only works for one person. If anyone else goes on the website they can just edit any of the rows or add their own. In the future it would make a lot of sense to have different tables for different users. Another thing that would be good is sorting the table based on the category entered. That way it is easier to visualize all the activities 
+I learned how to style input boxes better and use options for a yes no section. The styling for this project was fun and I was able to use styles like my button from other projects on this one. I also learned about placeholder text. I added a simple error handel if the user tries to enter an activity with no name. It will have res placeholder text saying enter a name. 

@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=DM+Sans:wght@400;500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+    --primary-color: #F5F2EE;
+    --header-color:#5b956e ;
+    --border-color: #E0D9D0 ;
+    --button-color: #5C8C6A;
+  }
+  
+
+body {
+  min-height: 1vh;
+  background-color: var(--primary-color);
+  font-family: "DM Sans";
+}
+
+header {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: var(--header-color);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+header h1 {
+  margin: 20px;
+}
+
+#inputs {
+  background-color: white;
+  border: 3px solid var(--border-color);
+  border-radius: 15px;
+  padding: 1.5rem;
+  margin: 1.5rem;
+  margin: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#inputs label {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: block;
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+
+#inputs input,
+#inputs select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1.5px solid var(--border-color);
+  background: var(--primary-color);
+  font-size: 15px;
+  outline: none;
+}
+
+#inputs button {
+  display: block;
+  margin: 1rem auto 5vh;
+  padding: 0.7em 2.5em;
+  background: var(--button-color);
+  color: rgb(0, 0, 0);
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+#inputs button:hover {
+  box-shadow: 8px 8px 14px -1px rgba(0, 0, 0, 0.2),
+    -8px -8px 14px -1px rgba(255, 255, 255, 0.8);
+  transform: translateY(-1px);
+}
+
+#inputs button:active {
+  box-shadow: 3px 3px 6px -1px rgba(0, 0, 0, 0.15),
+    -3px -3px 6px -1px rgba(255, 255, 255, 0.7),
+    inset 2px 2px 5px rgba(0, 0, 0, 0.1);
+  transform: translateY(1px);
+}
+
+input::placeholder {
+  color: rgb(219, 162, 162);
+  font-style: italic;
+}
+
+#table {
+  background-color: white;
+  border: 3px solid var(--border-color);
+  border-radius: 15px;
+  padding: 1.5rem;
+  margin: 1.5rem;
+  margin: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#list div {
+  background: var(--primary-color);
+  border: 1.5px solid var(--border-color);
+  border-radius: 12px;
+  padding: 0.75rem;
+  margin: .1rem;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+#list div p {
+  flex: 1;
+  font-size: 14px;
+  color: #000000;
+}
+
+#list div button {
+  padding: 0.4em 1em;
+  background: var(--button-color);
+  border: none;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 13px;
+  cursor: pointer;
+  box-shadow: 4px 4px 8px -1px rgba(0, 0, 0, 0.15),
+    -4px -4px 8px -1px rgba(255, 255, 255, 0.7);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+#list div button:hover {
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.2),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.8);
+  transform: translateY(-1px);
+}
+
+#list div button:active {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15),
+    -2px -2px 5px rgba(255, 255, 255, 0.7), inset 2px 2px 4px rgba(0, 0, 0, 0.1);
+  transform: translateY(1px);
+}
+
+footer {
+  background-color: var(--header-color);
+  padding: 1rem;
+}
+
+footer a {
+  color: black;
+}
+
