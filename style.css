@@ -32,7 +32,7 @@ header h1 {
   margin: 20px;
 }
 
-#inputs {
+#inputs-container {
   background-color: white;
   border: 3px solid var(--border-color);
   border-radius: 15px;
@@ -44,15 +44,15 @@ header h1 {
   gap: 10px;
 }
 
-#inputs label {
+#inputs-container label {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   display: block;
   font-size: 15px;
   margin-bottom: 4px;
 }
 
-#inputs input,
-#inputs select {
+#inputs-container input,
+#inputs-container select {
   width: 100%;
   padding: 10px;
   border-radius: 10px;
@@ -62,7 +62,7 @@ header h1 {
   outline: none;
 }
 
-#inputs button {
+#inputs-container button {
   display: block;
   margin: 1rem auto 5vh;
   padding: 0.7em 2.5em;
@@ -79,13 +79,13 @@ header h1 {
   transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
-#inputs button:hover {
+#inputs-container button:hover {
   box-shadow: 8px 8px 14px -1px rgba(0, 0, 0, 0.2),
     -8px -8px 14px -1px rgba(255, 255, 255, 0.8);
   transform: translateY(-1px);
 }
 
-#inputs button:active {
+#inputs-container button:active {
   box-shadow: 3px 3px 6px -1px rgba(0, 0, 0, 0.15),
     -3px -3px 6px -1px rgba(255, 255, 255, 0.7),
     inset 2px 2px 5px rgba(0, 0, 0, 0.1);

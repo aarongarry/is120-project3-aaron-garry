@@ -132,6 +132,7 @@ async function editRow(id) {
   }
 
   activityInput.value = "";
+  activityInput.placeholder = "";
   categoryInput.value = "";
   timeTakenInput.value = "";
 
