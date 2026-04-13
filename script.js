@@ -35,7 +35,7 @@ function fillInputWithEdit(entry) {
   completedStatus.value = entry.complete_status;
   currentEditID = entry.id;
   create.textContent = "Save Edit";
-  activityInput.focus()
+  activityInput.focus();
 }
 
 async function getAll() {
